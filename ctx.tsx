@@ -59,7 +59,7 @@ export function SessionProvider({ children }: PropsWithChildren) {
         session: auth?.token || null,
         user,
         isLoading,
-      }}
+      }}    
     >
       {children}
     </AuthContext.Provider>

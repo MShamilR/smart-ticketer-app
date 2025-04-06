@@ -48,7 +48,7 @@ const SignIn = () => {
           borderRadius: 5,
           marginTop: 30,
         }}
-        onPress={() => console.log("Signed in")}
+        onPress={() => console.log("Ip address blocked, please contact support")}
       >
         <Text
           style={{ color: "white", textAlign: "center", fontWeight: "bold" }}
